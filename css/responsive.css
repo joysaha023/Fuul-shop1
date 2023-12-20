@@ -1,0 +1,118 @@
+@media (max-width:1450px){
+    .top-hero-row{
+        gap: 40px;
+    }
+    .hero-right{
+        width: calc(50% - 45px);
+        padding-left: 20px;
+    }
+    .hero-left img{
+        max-width: 100%;
+    }
+    .featured-box{
+        flex-wrap: wrap;
+    }
+    .last-section-bottom .submit-btn{
+        max-width: 150px;
+    }
+}
+
+@media (max-width:1100px){
+    .hero-right{
+        width: calc(66% - 45px);
+        padding-left: 20px;
+    }
+    .hero-left img{
+        max-width: 90%;
+        padding: 0;
+    }
+    .featured-box{
+        margin-left: 80px;
+    }
+    .deal-section-content{
+        gap: 0;
+    }
+    .instagram-bottom{
+        flex-wrap: wrap;
+    }
+    .last-section-bottom{
+        flex-wrap: wrap;
+    }
+    .footer-box{
+        padding: 128px 30px 128px 30px;
+    }
+}
+
+@media (max-width:900px){
+    .top-hero-row{
+        flex-wrap: wrap;
+    }
+    .hero-right{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hero-left img{
+        max-width: 100%;
+    }
+    .featured-box{
+        margin-left: 75px;
+    }
+    .featured-box-bottom{
+        flex-direction: column;
+        height: 50rem;
+    }
+    .deal-section-right{
+        padding-top: 180px;
+       
+    }
+    .deal-section-left{
+        display: none;
+    }
+    .last-section-box{
+        padding: 122px 40px 121px 40px;
+    }
+}
+
+@media (max-width:700px){
+    .hero-right{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .hero-left img{
+        max-width: 100%;
+    }
+    .featured-box{
+        margin-left: 100px;
+    }
+    .deal-section-right{
+        max-width: 75%;
+    }
+}
+
+@media (max-width:570px){
+    .hero-right{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .hero-left img{
+        max-width: 100%;
+    }
+    .featured-box{
+        margin-left: 25px;
+    }
+    .featured-box{
+    }
+    .single-featured-box .single-image{
+        max-width: calc(100%);
+    }
+    .deal-section-right{
+        max-width: 100%;
+    }
+    .last-section-top p{
+        padding-bottom: 18px;
+    }
+    .last-section-box{
+        padding: 90px 40px 90px 40px;
+    }
+}
+
